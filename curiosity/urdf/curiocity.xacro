@@ -1,0 +1,549 @@
+<?xml version="1.0"?>
+<robot name="curiosity_rover" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<link name="base_link">
+
+	    <inertial>
+	      <mass value="20.3" />
+	      <origin xyz="0 0 0.0" />
+	      <inertia ixx="0.07" ixy="0.0" ixz="0.0"
+	        iyy="0.08" iyz="0.00" izz="0.10" />
+	    </inertial>
+
+	    <visual>
+		<origin xyz="0 0 0" rpy="0 0 0" />
+	      <geometry>
+		<box size="1 1 1" />
+	      </geometry>
+		<material name="red" />
+	    </visual>
+
+	    <collision>
+	      <origin xyz="0.00 0.0 0.0" rpy="0 0 0" />
+	      <geometry>
+	         <box size="1 1 1" />
+	      </geometry>
+	    </collision>
+</link>
+	    <!--Left-Back-->
+
+<link name="link-left-back">
+
+	    <inertial>
+	      <mass value="5.3" />
+	      <origin xyz="0 0 0.0" />
+	      <inertia ixx="0.07" ixy="0.0" ixz="0.0"
+	        iyy="0.08" iyz="0.00" izz="0.10" />
+	    </inertial>
+
+	    <visual>
+		<origin xyz="2 5 6" rpy="0 0 0" />
+	      <geometry>
+		<box size="1 1 1" />
+	      </geometry>
+		<material name="red" />
+	    </visual>
+
+	    <collision>
+	      <origin xyz="0.00 0.0 0.0" rpy="0 0 0" />
+	      <geometry>
+	         <box size="1 1 1" />
+	      </geometry>
+	    </collision>
+</link>
+<!--Left-Back1-->
+<link name="Link-Left-Back1">
+
+	    <inertial>
+	      <mass value="2.3" />
+	      <origin xyz="0 0 0.0" />
+	      <inertia ixx="0.07" ixy="0.0" ixz="0.0"
+	        iyy="0.08" iyz="0.00" izz="0.10" />
+	    </inertial>
+
+	    <visual>
+		<origin xyz="0 0 0" rpy="0 0 0" />
+	      <geometry>
+		<box size="1 1 1" />
+	      </geometry>
+		<material name="red" />
+	    </visual>
+
+	    <collision>
+	      <origin xyz="0.00 0.0 0.0" rpy="0 0 0" />
+	      <geometry>
+	         <box size="1 1 1" />
+	      </geometry>
+	    </collision>
+</link>
+<!--Left-Back1-Wheel-->
+<link name="Link-Left-Back1-Wheel">
+
+	    <inertial>
+	      <mass value="7" />
+	      <origin xyz="0 0 0.0" />
+	      <inertia ixx="0.07" ixy="0.0" ixz="0.0"
+	        iyy="0.08" iyz="0.00" izz="0.10" />
+	    </inertial>
+
+	    <visual>
+		<origin xyz="0 0 0" rpy="0 0 0" />
+	      <geometry>
+		<box size="1 1 1" />
+	      </geometry>
+		<material name="red" />
+	    </visual>
+
+	    <collision>
+	      <origin xyz="0.00 0.0 0.0" rpy="0 0 0" />
+	      <geometry>
+	         <box size="1 1 1" />
+	      </geometry>
+	    </collision>
+</link>
+
+
+<!--Left-Back2-->
+<link name="Link-Left-Back2">
+
+	    <inertial>
+	      <mass value="2.3" />
+	      <origin xyz="0 0 0.0" />
+	      <inertia ixx="0.07" ixy="0.0" ixz="0.0"
+	        iyy="0.08" iyz="0.00" izz="0.10" />
+	    </inertial>
+
+	    <visual>
+		<origin xyz="0 0 0" rpy="0 0 0" />
+	      <geometry>
+		<box size="1 1 1" />
+	      </geometry>
+		<material name="red" />
+	    </visual>
+
+	    <collision>
+	      <origin xyz="0.00 0.0 0.0" rpy="0 0 0" />
+	      <geometry>
+	         <box size="1 1 1" />
+	      </geometry>
+	    </collision>
+</link>
+<!-- Left-Back2-wheel -->
+<link name="Link-Left-Back2-wheel">
+
+	    <inertial>
+	      <mass value="7" />
+	      <origin xyz="0 0 0.0" />
+	      <inertia ixx="0.07" ixy="0.0" ixz="0.0"
+	        iyy="0.08" iyz="0.00" izz="0.10" />
+	    </inertial>
+
+	    <visual>
+		<origin xyz="0 0 0" rpy="0 0 0" />
+	      <geometry>
+		<box size="1 1 1" />
+	      </geometry>
+		<material name="red" />
+	    </visual>
+
+	    <collision>
+	      <origin xyz="0.00 0.0 0.0" rpy="0 0 0" />
+	      <geometry>
+	         <box size="1 1 1" />
+	      </geometry>
+	    </collision>
+</link>
+
+
+
+
+
+<!--Left-Front-->
+<link name="Link-Left-Front">
+
+	    <inertial>
+	      <mass value="5.3" />
+	      <origin xyz="0 0 0.0" />
+	      <inertia ixx="0.07" ixy="0.0" ixz="0.0"
+	        iyy="0.08" iyz="0.00" izz="0.10" />
+	    </inertial>
+
+	    <visual>
+		<origin xyz="0 0 0" rpy="0 0 0" />
+	      <geometry>
+		<box size="1 1 1" />
+	      </geometry>
+		<material name="red" />
+	    </visual>
+
+	    <collision>
+	      <origin xyz="0.00 0.0 0.0" rpy="0 0 0" />
+	      <geometry>
+	         <box size="1 1 1" />
+	      </geometry>
+	    </collision>
+</link>
+<!-- Left-Front-Wheel -->
+<link name="Link-Left-Front-Wheel">
+
+	    <inertial>
+	      <mass value="7" />
+	      <origin xyz="0 0 0.0" />
+	      <inertia ixx="0.07" ixy="0.0" ixz="0.0"
+	        iyy="0.08" iyz="0.00" izz="0.10" />
+	    </inertial>
+
+	    <visual>
+		<origin xyz="0 0 0" rpy="0 0 0" />
+	      <geometry>
+		<box size="1 1 1" />
+	      </geometry>
+		<material name="red" />
+	    </visual>
+
+	    <collision>
+	      <origin xyz="0.00 0.0 0.0" rpy="0 0 0" />
+	      <geometry>
+	         <box size="1 1 1" />
+	      </geometry>
+	    </collision>
+</link>
+
+
+<!-- Camera-Base -->
+<link name="Link-Camera-Base">
+
+	    <inertial>
+	      <mass value="2.5" />
+	      <origin xyz="0 0 0.0" />
+	      <inertia ixx="0.07" ixy="0.0" ixz="0.0"
+	        iyy="0.08" iyz="0.00" izz="0.10" />
+	    </inertial>
+
+	    <visual>
+		<origin xyz="0 0 0" rpy="0 0 0" />
+	      <geometry>
+		<box size="1 1 1" />
+	      </geometry>
+		<material name="red" />
+	    </visual>
+
+	    <collision>
+	      <origin xyz="0.00 0.0 0.0" rpy="0 0 0" />
+	      <geometry>
+	         <box size="1 1 1" />
+	      </geometry>
+	    </collision>
+</link>
+<!-- Camera -->
+<link name="Camera">
+
+	    <inertial>
+	      <mass value="1.5" />
+	      <origin xyz="0 0 0.0" />
+	      <inertia ixx="0.07" ixy="0.0" ixz="0.0"
+	        iyy="0.08" iyz="0.00" izz="0.10" />
+	    </inertial>
+
+	    <visual>
+		<origin xyz="0 0 0" rpy="0 0 0" />
+	      <geometry>
+		<box size="1 1 1" />
+	      </geometry>
+		<material name="red" />
+	    </visual>
+
+	    <collision>
+	      <origin xyz="0.00 0.0 0.0" rpy="0 0 0" />
+	      <geometry>
+	         <box size="1 1 1" />
+	      </geometry>
+	    </collision>
+</link>
+
+
+
+<!--Right-Back-->
+<link name="Link-Right-Back">
+
+	    <inertial>
+	      <mass value="5.3" />
+	      <origin xyz="0 0 0.0" />
+	      <inertia ixx="0.07" ixy="0.0" ixz="0.0"
+	        iyy="0.08" iyz="0.00" izz="0.10" />
+	    </inertial>
+
+	    <visual>
+		<origin xyz="0 0 0" rpy="0 0 0" />
+	      <geometry>
+		<box size="1 1 1" />
+	      </geometry>
+		<material name="red" />
+	    </visual>
+
+	    <collision>
+	      <origin xyz="0.00 0.0 0.0" rpy="0 0 0" />
+	      <geometry>
+	         <box size="1 1 1" />
+	      </geometry>
+	    </collision>
+	    <!--Right-Back1-->
+</link>
+<link name="Link-Right-Back1">
+
+	    <inertial>
+	      <mass value="2.3" />
+	      <origin xyz="0 0 0.0" />
+	      <inertia ixx="0.07" ixy="0.0" ixz="0.0"
+	        iyy="0.08" iyz="0.00" izz="0.10" />
+	    </inertial>
+
+	    <visual>
+		<origin xyz="0 0 0" rpy="0 0 0" />
+	      <geometry>
+		<box size="1 1 1" />
+	      </geometry>
+		<material name="red" />
+	    </visual>
+
+	    <collision>
+	      <origin xyz="0.00 0.0 0.0" rpy="0 0 0" />
+	      <geometry>
+	         <box size="1 1 1" />
+	      </geometry>
+	    </collision>
+	    <!--Right-Back1-Wheel-->
+</link>
+<link name="Link-Right-Back1-Wheel">
+
+	    <inertial>
+	      <mass value="7" />
+	      <origin xyz="0 0 0.0" />
+	      <inertia ixx="0.07" ixy="0.0" ixz="0.0"
+	        iyy="0.08" iyz="0.00" izz="0.10" />
+	    </inertial>
+
+	    <visual>
+		<origin xyz="0 0 0" rpy="0 0 0" />
+	      <geometry>
+		<box size="1 1 1" />
+	      </geometry>
+		<material name="red" />
+	    </visual>
+
+	    <collision>
+	      <origin xyz="0.00 0.0 0.0" rpy="0 0 0" />
+	      <geometry>
+	         <box size="1 1 1" />
+	      </geometry>
+	    </collision>
+</link>
+
+
+<!--Right-Back2-->
+<link name="Link-Right-Back2">
+
+	    <inertial>
+	      <mass value="2.3" />
+	      <origin xyz="0 0 0.0" />
+	      <inertia ixx="0.07" ixy="0.0" ixz="0.0"
+	        iyy="0.08" iyz="0.00" izz="0.10" />
+	    </inertial>
+
+	    <visual>
+		<origin xyz="0 0 0" rpy="0 0 0" />
+	      <geometry>
+		<box size="1 1 1" />
+	      </geometry>
+		<material name="red" />
+	    </visual>
+
+	    <collision>
+	      <origin xyz="0.00 0.0 0.0" rpy="0 0 0" />
+	      <geometry>
+	         <box size="1 1 1" />
+	      </geometry>
+	    </collision>
+	    <!-- Right-Back2-wheel -->
+</link>
+<link name="Link-Right-Back2-wheel">
+
+	    <inertial>
+	      <mass value="7" />
+	      <origin xyz="0 0 0.0" />
+	      <inertia ixx="0.07" ixy="0.0" ixz="0.0"
+	        iyy="0.08" iyz="0.00" izz="0.10" />
+	    </inertial>
+
+	    <visual>
+		<origin xyz="0 0 0" rpy="0 0 0" />
+	      <geometry>
+		<box size="1 1 1" />
+	      </geometry>
+		<material name="red" />
+	    </visual>
+
+	    <collision>
+	      <origin xyz="0.00 0.0 0.0" rpy="0 0 0" />
+	      <geometry>
+	         <box size="1 1 1" />
+	      </geometry>
+	    </collision>
+</link>
+
+
+
+<!--Right-Front-->
+<link name="Link-Right-Front">
+
+	    <inertial>
+	      <mass value="5.3" />
+	      <origin xyz="0 0 0.0" />
+	      <inertia ixx="0.07" ixy="0.0" ixz="0.0"
+	        iyy="0.08" iyz="0.00" izz="0.10" />
+	    </inertial>
+
+	    <visual>
+		<origin xyz="0 0 0" rpy="0 0 0" />
+	      <geometry>
+		<box size="1 1 1" />
+	      </geometry>
+		<material name="red" />
+	    </visual>
+
+	    <collision>
+	      <origin xyz="0.00 0.0 0.0" rpy="0 0 0" />
+	      <geometry>
+	         <box size="1 1 1" />
+	      </geometry>
+	    </collision>
+	    <!-- Right-Front-Wheel -->
+</link>
+<link name="link_right_wheel">
+
+	    <inertial>
+	      <mass value="7" />
+	      <origin xyz="0 0 0.0" />
+	      <inertia ixx="0.07" ixy="0.0" ixz="0.0"
+	        iyy="0.08" iyz="0.00" izz="0.10" />
+	    </inertial>
+
+	    <visual>
+		<origin xyz="0 0 0" rpy="0 0 0" />
+	      <geometry>
+		<box size="1 1 1" />
+	      </geometry>
+		<material name="red" />
+	    </visual>
+
+	    <collision>
+	      <origin xyz="0.00 0.0 0.0" rpy="0 0 0" />
+	      <geometry>
+	         <box size="1 1 1" />
+	      </geometry>
+	    </collision>
+</link>
+
+
+
+<joint name="joint_left_wheels" type="fixed">
+<parent link="base_link"/>
+<child link= "link-left-back"/>
+<origin rpy="0 -0 0" xyz="-3 -4 6"/>
+</joint>
+
+
+
+<joint name="joint_left_wheels6" type="fixed">
+<parent link="base_link"/>
+<child link= "Link-Camera-Base"/>
+<origin rpy="0 -0 0" xyz="-3 -4 6"/>
+</joint>
+
+<joint name="joint_left_wheels7" type="fixed">
+<parent link="Link-Camera-Base"/>
+<child link= "Camera"/>
+<origin rpy="0 -0 0" xyz="-3 -4 6"/>
+</joint>
+
+<joint name="joint_left_wheels8" type="fixed">
+<parent link="Link-Left-Back1"/>
+<child link= "Link-Left-Back1-Wheel"/>
+<origin rpy="0 -0 0" xyz="-3 -4 6"/>
+</joint>
+
+<joint name="joint_left_wheels9" type="fixed">
+<parent link="Link-Left-Back2"/>
+<child link= "Link-Left-Back2-wheel"/>
+<origin rpy="0 -0 0" xyz="-3 -4 6"/>
+</joint>
+
+
+<joint name="joint_left_wheels10" type="fixed">
+<parent link="Link-Left-Front"/>
+<child link= "Link-Left-Front-Wheel"/>
+<origin rpy="0 -0 0" xyz="-3 -4 6"/>
+</joint>
+
+<joint name="joint_left_wheels11" type="fixed">
+<parent link="link-left-back"/>
+<child link= "Link-Left-Back1"/>
+<origin rpy="0 -0 0" xyz="-3 -4 6"/>
+</joint>
+
+<joint name="joint_left_wheels12" type="fixed">
+<parent link="link-left-back"/>
+<child link= "Link-Left-Back2"/>
+<origin rpy="0 -0 0" xyz="-3 -4 6"/>
+</joint>
+
+<joint name="joint_left_wheels13" type="fixed">
+<parent link="base_link"/>
+<child link= "Link-Left-Front"/>
+<origin rpy="0 -0 0" xyz="-3 -4 6"/>
+</joint>
+
+<joint name="joint_left_wheels14" type="fixed">
+<parent link="base_link"/>
+<child link= "Link-Right-Back"/>
+<origin rpy="0 -0 0" xyz="-3 -4 6"/>
+</joint>
+
+
+<joint name="joint_left_wheels15" type="fixed">
+<parent link="base_link"/>
+<child link= "Link-Right-Front"/>
+<origin rpy="0 -0 0" xyz="-3 -4 6"/>
+</joint>
+
+<joint name="joint_left_wheels32" type="fixed">
+<parent link="Link-Right-Back"/>
+<child link= "Link-Right-Back1"/>
+<origin rpy="0 -0 0" xyz="-3 -4 6"/>
+</joint>
+
+<joint name="joint_left_wheels34" type="fixed">
+<parent link="Link-Right-Back"/>
+<child link= "Link-Right-Back2"/>
+<origin rpy="0 -0 0" xyz="-3 -4 6"/>
+</joint>
+
+<joint name="joint_left_wheels16" type="fixed">
+<parent link="Link-Right-Back1"/>
+<child link= "Link-Right-Back1-Wheel"/>
+<origin rpy="0 -0 0" xyz="-3 -4 6"/>
+</joint>
+
+<joint name="joint_left_wheels17" type="fixed">
+<parent link="Link-Right-Back2"/>
+<child link= "Link-Right-Back2-wheel"/>
+<origin rpy="0 -0 0" xyz="-3 -4 6"/>
+</joint>
+
+<joint name="joint_left_wheels18" type="fixed">
+<parent link="Link-Right-Front"/>
+<child link= "link_right_wheel"/>
+<origin rpy="0 -0 0" xyz="-3 -4 6"/>
+</joint>
+
+</robot>
